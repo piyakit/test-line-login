@@ -37,4 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Demo
 
-https://test-line-login-36xim14yg-piyakits-projects.vercel.app/
+https://test-line-login-36xim14yg-piyakits-projects.vercel.app/login
