@@ -52,7 +52,7 @@ const Line = () => {
       {isLoggedIn ? (
         <div className="flex flex-col h-screen justify-center items-center">
           <Image
-            src="https://profile.line-scdn.net/0heG1-geidOmgcVConqzZEF2wEOQI_JWN6N2B2WyBVMVwlZXRrYmVxXS5SMw11ZSlsZ2ZyWXpRZV8QR00OAgLGXBtkZ1kgYXQ3NDd0iA"
+            src={userProfile.pictureUrl ? userProfile.pictureUrl : ''}
             alt={""}
             width={400}
             height={400}
