@@ -1,9 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     env: {
-        lineClientID: process.env.LINE_CLIENT_ID,
-        lineClientSecret: process.env.LINE_CLIENT_SECRET,
-    }
+        liffId: process.env.LIFF_ID
+    },
+    images: {
+        domains: ['https://profile.line-scdn.net'],
+        remotePatterns: [
+            {
+              protocol: 'https',
+              hostname: 'profile.line-scdn.net',
+              port: '',
+              pathname: '/**',
+            },
+          ],
+      },
 };
 
 export default nextConfig;
